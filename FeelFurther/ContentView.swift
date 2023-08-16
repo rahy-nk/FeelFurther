@@ -8,14 +8,76 @@
 import SwiftUI
 
 struct ContentView: View {
+    var quote = "quote will go here"
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            ZStack {
+                //Background
+                Color(red: 0.931, green: 0.966, blue: 0.978)
+                    .ignoresSafeArea()
+                VStack {
+                    //Title
+                    Text ("feelfurther")
+                        .font(Font.custom("SourceCodePro-Medium", size: 30))
+                        .padding()
+                    //Quote
+                    Text (quote)
+                    
+                        .padding()
+                        .italic()
+                    HStack {
+                        //Resource Tab
+                        NavigationLink(destination: ResourceTab()) {
+                            Text("Resources")
+                                .fontWeight(.bold)
+                                .foregroundColor(Color(hue: 1.0, saturation: 0.163, brightness: 0.304))
+                        }
+                        .padding ()
+                        .frame(width: 140.0, height: 140.0)
+                        .background(Color(hue: 0.039, saturation: 0.25, brightness: 0.933))
+                        .cornerRadius(/*@START_MENU_TOKEN@*/30.0/*@END_MENU_TOKEN@*/)
+                        .padding()
+                        //to-do List
+                        NavigationLink(destination: TodoList()) {
+                            Text("To-do List")
+                                .fontWeight(.bold)
+                                .foregroundColor(Color(hue: 1.0, saturation: 0.163, brightness: 0.304))
+                        }
+                        .padding ()
+                        .frame(width: 140.0, height: 140.0)
+                        .background(Color(hue: 0.045, saturation: 0.26, brightness: 0.841))
+                        .cornerRadius(/*@START_MENU_TOKEN@*/30.0/*@END_MENU_TOKEN@*/)
+                        .padding ()
+                    }
+                    HStack {
+                        //Vacation Destinations Tab
+                        NavigationLink(destination: VacationTab()) {
+                            Text("Vacation\nDestinations")
+                                .fontWeight(.bold)
+                                .foregroundColor(Color(hue: 1.0, saturation: 0.163, brightness: 0.304))
+                        }
+                        .padding ()
+                        .frame(width: 140.0, height: 140.0)
+                        .background(Color(hue: 0.045, saturation: 0.185, brightness: 0.891))
+                        .cornerRadius(/*@START_MENU_TOKEN@*/30.0/*@END_MENU_TOKEN@*/)
+                        .padding ()
+                        
+                        //Journal
+                        NavigationLink(destination: JournalTab()) {
+                            Text("Jornal")
+                                .fontWeight(.bold)
+                                .foregroundColor(Color(hue: 1.0, saturation: 0.163, brightness: 0.304))
+                        }
+                        .padding ()
+                        .frame(width: 140.0, height: 140.0)
+                        .background(Color(red: 0.882, green: 0.682, blue: 0.66))
+                        .cornerRadius(/*@START_MENU_TOKEN@*/30.0/*@END_MENU_TOKEN@*/)
+                        .padding ()
+                        
+                    }
+                }
+            }
         }
-        .padding()
     }
 }
 
