@@ -11,6 +11,14 @@
 		BD88263D2A8BCFEC00B2548B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD88263C2A8BCFEC00B2548B /* ContentView.swift */; };
 		BD88263F2A8BCFEE00B2548B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD88263E2A8BCFEE00B2548B /* Assets.xcassets */; };
 		BD8826422A8BCFEE00B2548B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8826412A8BCFEE00B2548B /* Preview Assets.xcassets */; };
+		BD8826492A8BD14E00B2548B /* ResourceTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8826482A8BD14E00B2548B /* ResourceTab.swift */; };
+		BD8FF65A2A8BD78300290A57 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8FF6592A8BD78300290A57 /* TodoList.swift */; };
+		BD8FF65C2A8BD85F00290A57 /* VacationTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8FF65B2A8BD85F00290A57 /* VacationTab.swift */; };
+		BD8FF65E2A8BD87C00290A57 /* JournalTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8FF65D2A8BD87C00290A57 /* JournalTab.swift */; };
+		BDA415C02A8C0785006D7793 /* SourceCodePro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDA415BF2A8C0785006D7793 /* SourceCodePro-Medium.ttf */; };
+		BDA415C22A8C09FD006D7793 /* QwitcherGrypen-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDA415C12A8C09FD006D7793 /* QwitcherGrypen-Regular.ttf */; };
+		BDA415C52A8C0A1A006D7793 /* LoversQuarrel-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDA415C42A8C0A1A006D7793 /* LoversQuarrel-Regular.ttf */; };
+		BDA415C72A8C0A28006D7793 /* MeowScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDA415C62A8C0A28006D7793 /* MeowScript-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,15 @@
 		BD88263C2A8BCFEC00B2548B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD88263E2A8BCFEE00B2548B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD8826412A8BCFEE00B2548B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD8826482A8BD14E00B2548B /* ResourceTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceTab.swift; sourceTree = "<group>"; };
+		BD8FF6592A8BD78300290A57 /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
+		BD8FF65B2A8BD85F00290A57 /* VacationTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationTab.swift; sourceTree = "<group>"; };
+		BD8FF65D2A8BD87C00290A57 /* JournalTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTab.swift; sourceTree = "<group>"; };
+		BDA415BA2A8C019F006D7793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BDA415BF2A8C0785006D7793 /* SourceCodePro-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceCodePro-Medium.ttf"; sourceTree = "<group>"; };
+		BDA415C12A8C09FD006D7793 /* QwitcherGrypen-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "QwitcherGrypen-Regular.ttf"; sourceTree = "<group>"; };
+		BDA415C42A8C0A1A006D7793 /* LoversQuarrel-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LoversQuarrel-Regular.ttf"; sourceTree = "<group>"; };
+		BDA415C62A8C0A28006D7793 /* MeowScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MeowScript-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +68,14 @@
 		BD8826392A8BCFEC00B2548B /* FeelFurther */ = {
 			isa = PBXGroup;
 			children = (
+				BDA415BA2A8C019F006D7793 /* Info.plist */,
+				BDA415C32A8C0A01006D7793 /* Fonts */,
 				BD88263A2A8BCFEC00B2548B /* FeelFurtherApp.swift */,
 				BD88263C2A8BCFEC00B2548B /* ContentView.swift */,
+				BD8FF65D2A8BD87C00290A57 /* JournalTab.swift */,
+				BD8FF65B2A8BD85F00290A57 /* VacationTab.swift */,
+				BD8FF6592A8BD78300290A57 /* TodoList.swift */,
+				BD8826482A8BD14E00B2548B /* ResourceTab.swift */,
 				BD88263E2A8BCFEE00B2548B /* Assets.xcassets */,
 				BD8826402A8BCFEE00B2548B /* Preview Content */,
 			);
@@ -65,6 +88,17 @@
 				BD8826412A8BCFEE00B2548B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BDA415C32A8C0A01006D7793 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BDA415C62A8C0A28006D7793 /* MeowScript-Regular.ttf */,
+				BDA415C42A8C0A1A006D7793 /* LoversQuarrel-Regular.ttf */,
+				BDA415BF2A8C0785006D7793 /* SourceCodePro-Medium.ttf */,
+				BDA415C12A8C09FD006D7793 /* QwitcherGrypen-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +159,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDA415C72A8C0A28006D7793 /* MeowScript-Regular.ttf in Resources */,
+				BDA415C02A8C0785006D7793 /* SourceCodePro-Medium.ttf in Resources */,
+				BDA415C22A8C09FD006D7793 /* QwitcherGrypen-Regular.ttf in Resources */,
 				BD8826422A8BCFEE00B2548B /* Preview Assets.xcassets in Resources */,
+				BDA415C52A8C0A1A006D7793 /* LoversQuarrel-Regular.ttf in Resources */,
 				BD88263F2A8BCFEE00B2548B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +175,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD8FF65C2A8BD85F00290A57 /* VacationTab.swift in Sources */,
+				BD8FF65E2A8BD87C00290A57 /* JournalTab.swift in Sources */,
+				BD8826492A8BD14E00B2548B /* ResourceTab.swift in Sources */,
 				BD88263D2A8BCFEC00B2548B /* ContentView.swift in Sources */,
 				BD88263B2A8BCFEC00B2548B /* FeelFurtherApp.swift in Sources */,
+				BD8FF65A2A8BD78300290A57 /* TodoList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +311,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FeelFurther/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FeelFurther/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +340,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FeelFurther/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FeelFurther/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
