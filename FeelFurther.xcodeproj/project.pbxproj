@@ -12,6 +12,7 @@
 		BD88263F2A8BCFEE00B2548B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD88263E2A8BCFEE00B2548B /* Assets.xcassets */; };
 		BD8826422A8BCFEE00B2548B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8826412A8BCFEE00B2548B /* Preview Assets.xcassets */; };
 		BD8826492A8BD14E00B2548B /* ResourceTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8826482A8BD14E00B2548B /* ResourceTab.swift */; };
+		BD8928992A8D44AB0057D586 /* LibreBaskerville-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD8928982A8D44AB0057D586 /* LibreBaskerville-Regular.ttf */; };
 		BD8FF65A2A8BD78300290A57 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8FF6592A8BD78300290A57 /* TodoList.swift */; };
 		BD8FF65C2A8BD85F00290A57 /* VacationTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8FF65B2A8BD85F00290A57 /* VacationTab.swift */; };
 		BD8FF65E2A8BD87C00290A57 /* JournalTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8FF65D2A8BD87C00290A57 /* JournalTab.swift */; };
@@ -28,6 +29,8 @@
 		BD88263E2A8BCFEE00B2548B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD8826412A8BCFEE00B2548B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD8826482A8BD14E00B2548B /* ResourceTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceTab.swift; sourceTree = "<group>"; };
+		BD8928982A8D44AB0057D586 /* LibreBaskerville-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LibreBaskerville-Regular.ttf"; path = "../../Downloads/Libre_Baskerville/LibreBaskerville-Regular.ttf"; sourceTree = "<group>"; };
+		BD89289A2A8D44B80057D586 /* LibreBaskerville-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreBaskerville-Regular.ttf"; sourceTree = "<group>"; };
 		BD8FF6592A8BD78300290A57 /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
 		BD8FF65B2A8BD85F00290A57 /* VacationTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationTab.swift; sourceTree = "<group>"; };
 		BD8FF65D2A8BD87C00290A57 /* JournalTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTab.swift; sourceTree = "<group>"; };
@@ -52,6 +55,7 @@
 		BD88262E2A8BCFEC00B2548B = {
 			isa = PBXGroup;
 			children = (
+				BD8928982A8D44AB0057D586 /* LibreBaskerville-Regular.ttf */,
 				BD8826392A8BCFEC00B2548B /* FeelFurther */,
 				BD8826382A8BCFEC00B2548B /* Products */,
 			);
@@ -93,6 +97,7 @@
 		BDA415C32A8C0A01006D7793 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				BD89289A2A8D44B80057D586 /* LibreBaskerville-Regular.ttf */,
 				BDA415C62A8C0A28006D7793 /* MeowScript-Regular.ttf */,
 				BDA415C42A8C0A1A006D7793 /* LoversQuarrel-Regular.ttf */,
 				BDA415BF2A8C0785006D7793 /* SourceCodePro-Medium.ttf */,
@@ -160,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDA415C72A8C0A28006D7793 /* MeowScript-Regular.ttf in Resources */,
+				BD8928992A8D44AB0057D586 /* LibreBaskerville-Regular.ttf in Resources */,
 				BDA415C02A8C0785006D7793 /* SourceCodePro-Medium.ttf in Resources */,
 				BDA415C22A8C09FD006D7793 /* QwitcherGrypen-Regular.ttf in Resources */,
 				BD8826422A8BCFEE00B2548B /* Preview Assets.xcassets in Resources */,

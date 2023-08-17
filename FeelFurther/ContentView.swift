@@ -13,12 +13,12 @@ struct ContentView: View {
         NavigationStack {
             ZStack {
                 //Background
-                Color(red: 0.931, green: 0.966, blue: 0.978)
+                Color(red: 100, green: 100, blue: 100)
                     .ignoresSafeArea()
                 VStack {
                     //Title
                     Text ("feelfurther")
-                        .font(Font.custom("SourceCodePro-Medium", size: 30))
+                        .font(Font.custom("LibreBaskerville-Regular", size: 30))
                         .padding()
                     //Quote
                     Text (quote)
@@ -28,9 +28,10 @@ struct ContentView: View {
                     HStack {
                         //Resource Tab
                         NavigationLink(destination: ResourceTab()) {
-                            Text("Resources")
+                            Text("resources")
                                 .fontWeight(.bold)
                                 .foregroundColor(Color(hue: 1.0, saturation: 0.163, brightness: 0.304))
+                            
                         }
                         .padding ()
                         .frame(width: 140.0, height: 140.0)
@@ -39,7 +40,7 @@ struct ContentView: View {
                         .padding()
                         //to-do List
                         NavigationLink(destination: TodoList()) {
-                            Text("To-do List")
+                            Text("to-do list")
                                 .fontWeight(.bold)
                                 .foregroundColor(Color(hue: 1.0, saturation: 0.163, brightness: 0.304))
                         }
@@ -52,7 +53,7 @@ struct ContentView: View {
                     HStack {
                         //Vacation Destinations Tab
                         NavigationLink(destination: VacationTab()) {
-                            Text("Vacation\nDestinations")
+                            Text("vacation\ndestinations")
                                 .fontWeight(.bold)
                                 .foregroundColor(Color(hue: 1.0, saturation: 0.163, brightness: 0.304))
                         }
@@ -64,7 +65,7 @@ struct ContentView: View {
                         
                         //Journal
                         NavigationLink(destination: JournalTab()) {
-                            Text("Jornal")
+                            Text("journal")
                                 .fontWeight(.bold)
                                 .foregroundColor(Color(hue: 1.0, saturation: 0.163, brightness: 0.304))
                         }
