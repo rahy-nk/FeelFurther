@@ -13,6 +13,9 @@
 		BD8826422A8BCFEE00B2548B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8826412A8BCFEE00B2548B /* Preview Assets.xcassets */; };
 		BD8826492A8BD14E00B2548B /* ResourceTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8826482A8BD14E00B2548B /* ResourceTab.swift */; };
 		BD8928992A8D44AB0057D586 /* LibreBaskerville-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD8928982A8D44AB0057D586 /* LibreBaskerville-Regular.ttf */; };
+		BD8941632A8E776F00D6156B /* AnxietyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8941622A8E776F00D6156B /* AnxietyView.swift */; };
+		BD8941652A8E778800D6156B /* AngerManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8941642A8E778800D6156B /* AngerManagementView.swift */; };
+		BD8941672A8E7B4500D6156B /* LibreBaskerville-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD8941662A8E7B4500D6156B /* LibreBaskerville-Italic.ttf */; };
 		BD8FF65A2A8BD78300290A57 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8FF6592A8BD78300290A57 /* TodoList.swift */; };
 		BD8FF65C2A8BD85F00290A57 /* VacationTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8FF65B2A8BD85F00290A57 /* VacationTab.swift */; };
 		BD8FF65E2A8BD87C00290A57 /* JournalTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8FF65D2A8BD87C00290A57 /* JournalTab.swift */; };
@@ -31,6 +34,9 @@
 		BD8826482A8BD14E00B2548B /* ResourceTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceTab.swift; sourceTree = "<group>"; };
 		BD8928982A8D44AB0057D586 /* LibreBaskerville-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LibreBaskerville-Regular.ttf"; path = "../../Downloads/Libre_Baskerville/LibreBaskerville-Regular.ttf"; sourceTree = "<group>"; };
 		BD89289A2A8D44B80057D586 /* LibreBaskerville-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreBaskerville-Regular.ttf"; sourceTree = "<group>"; };
+		BD8941622A8E776F00D6156B /* AnxietyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnxietyView.swift; sourceTree = "<group>"; };
+		BD8941642A8E778800D6156B /* AngerManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngerManagementView.swift; sourceTree = "<group>"; };
+		BD8941662A8E7B4500D6156B /* LibreBaskerville-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreBaskerville-Italic.ttf"; sourceTree = "<group>"; };
 		BD8FF6592A8BD78300290A57 /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
 		BD8FF65B2A8BD85F00290A57 /* VacationTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationTab.swift; sourceTree = "<group>"; };
 		BD8FF65D2A8BD87C00290A57 /* JournalTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTab.swift; sourceTree = "<group>"; };
@@ -80,6 +86,8 @@
 				BD8FF65B2A8BD85F00290A57 /* VacationTab.swift */,
 				BD8FF6592A8BD78300290A57 /* TodoList.swift */,
 				BD8826482A8BD14E00B2548B /* ResourceTab.swift */,
+				BD8941622A8E776F00D6156B /* AnxietyView.swift */,
+				BD8941642A8E778800D6156B /* AngerManagementView.swift */,
 				BD88263E2A8BCFEE00B2548B /* Assets.xcassets */,
 				BD8826402A8BCFEE00B2548B /* Preview Content */,
 			);
@@ -102,6 +110,7 @@
 				BDA415C42A8C0A1A006D7793 /* LoversQuarrel-Regular.ttf */,
 				BDA415BF2A8C0785006D7793 /* SourceCodePro-Medium.ttf */,
 				BDA415C12A8C09FD006D7793 /* QwitcherGrypen-Regular.ttf */,
+				BD8941662A8E7B4500D6156B /* LibreBaskerville-Italic.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -168,6 +177,7 @@
 				BD8928992A8D44AB0057D586 /* LibreBaskerville-Regular.ttf in Resources */,
 				BDA415C02A8C0785006D7793 /* SourceCodePro-Medium.ttf in Resources */,
 				BDA415C22A8C09FD006D7793 /* QwitcherGrypen-Regular.ttf in Resources */,
+				BD8941672A8E7B4500D6156B /* LibreBaskerville-Italic.ttf in Resources */,
 				BD8826422A8BCFEE00B2548B /* Preview Assets.xcassets in Resources */,
 				BDA415C52A8C0A1A006D7793 /* LoversQuarrel-Regular.ttf in Resources */,
 				BD88263F2A8BCFEE00B2548B /* Assets.xcassets in Resources */,
@@ -182,9 +192,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD8FF65C2A8BD85F00290A57 /* VacationTab.swift in Sources */,
+				BD8941652A8E778800D6156B /* AngerManagementView.swift in Sources */,
 				BD8FF65E2A8BD87C00290A57 /* JournalTab.swift in Sources */,
 				BD8826492A8BD14E00B2548B /* ResourceTab.swift in Sources */,
 				BD88263D2A8BCFEC00B2548B /* ContentView.swift in Sources */,
+				BD8941632A8E776F00D6156B /* AnxietyView.swift in Sources */,
 				BD88263B2A8BCFEC00B2548B /* FeelFurtherApp.swift in Sources */,
 				BD8FF65A2A8BD78300290A57 /* TodoList.swift in Sources */,
 			);

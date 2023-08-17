@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    var quote = "quote will go here"
+    var quote = "your present circumstances don't determine where you go, they merely determine where you start"
     var body: some View {
         NavigationStack {
             ZStack {
@@ -22,7 +22,8 @@ struct ContentView: View {
                         .padding()
                     //Quote
                     Text (quote)
-                    
+                        .font(Font.custom("LibreBaskerville-Italic", size: 17))
+                        .multilineTextAlignment(.center)
                         .padding()
                         .italic()
                     HStack {
@@ -52,8 +53,8 @@ struct ContentView: View {
                     }
                     HStack {
                         //Vacation Destinations Tab
-                        NavigationLink(destination: VacationTab()) {
-                            Text("vacation\ndestinations")
+                        NavigationLink(destination: JournalTab()) {
+                            Text("journal")
                                 .fontWeight(.bold)
                                 .foregroundColor(Color(hue: 1.0, saturation: 0.163, brightness: 0.304))
                         }
@@ -64,8 +65,8 @@ struct ContentView: View {
                         .padding ()
                         
                         //Journal
-                        NavigationLink(destination: JournalTab()) {
-                            Text("journal")
+                        NavigationLink(destination: VacationTab()) {
+                            Text("vacation destinations")
                                 .fontWeight(.bold)
                                 .foregroundColor(Color(hue: 1.0, saturation: 0.163, brightness: 0.304))
                         }
