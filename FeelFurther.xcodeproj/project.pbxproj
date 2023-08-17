@@ -23,6 +23,8 @@
 		BDA415C22A8C09FD006D7793 /* QwitcherGrypen-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDA415C12A8C09FD006D7793 /* QwitcherGrypen-Regular.ttf */; };
 		BDA415C52A8C0A1A006D7793 /* LoversQuarrel-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDA415C42A8C0A1A006D7793 /* LoversQuarrel-Regular.ttf */; };
 		BDA415C72A8C0A28006D7793 /* MeowScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDA415C62A8C0A28006D7793 /* MeowScript-Regular.ttf */; };
+		BDD2A4972A8E90F40001B325 /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2A4962A8E90F40001B325 /* NewToDoView.swift */; };
+		BDD2A4992A8E91520001B325 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2A4982A8E91520001B325 /* ToDoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		BDA415C12A8C09FD006D7793 /* QwitcherGrypen-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "QwitcherGrypen-Regular.ttf"; sourceTree = "<group>"; };
 		BDA415C42A8C0A1A006D7793 /* LoversQuarrel-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LoversQuarrel-Regular.ttf"; sourceTree = "<group>"; };
 		BDA415C62A8C0A28006D7793 /* MeowScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MeowScript-Regular.ttf"; sourceTree = "<group>"; };
+		BDD2A4962A8E90F40001B325 /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
+		BDD2A4982A8E91520001B325 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				BDA415BA2A8C019F006D7793 /* Info.plist */,
 				BDA415C32A8C0A01006D7793 /* Fonts */,
 				BD88263A2A8BCFEC00B2548B /* FeelFurtherApp.swift */,
+				BDD2A4962A8E90F40001B325 /* NewToDoView.swift */,
+				BDD2A4982A8E91520001B325 /* ToDoItem.swift */,
 				BD88263C2A8BCFEC00B2548B /* ContentView.swift */,
 				BD8FF65D2A8BD87C00290A57 /* JournalTab.swift */,
 				BD8FF65B2A8BD85F00290A57 /* VacationTab.swift */,
@@ -193,6 +199,8 @@
 			files = (
 				BD8FF65C2A8BD85F00290A57 /* VacationTab.swift in Sources */,
 				BD8941652A8E778800D6156B /* AngerManagementView.swift in Sources */,
+				BDD2A4992A8E91520001B325 /* ToDoItem.swift in Sources */,
+				BDD2A4972A8E90F40001B325 /* NewToDoView.swift in Sources */,
 				BD8FF65E2A8BD87C00290A57 /* JournalTab.swift in Sources */,
 				BD8826492A8BD14E00B2548B /* ResourceTab.swift in Sources */,
 				BD88263D2A8BCFEC00B2548B /* ContentView.swift in Sources */,

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct JournalTab: View {
-    @State private var journal = ""
+    @State private var journal = "Start Writing...."
     var body: some View {
         ZStack {
             Color(red: 0.93, green: 0.905, blue: 0.888)
@@ -20,7 +20,7 @@ struct JournalTab: View {
                     .multilineTextAlignment(.center)
                     .font(Font.custom("LibreBaskerville-Regular", size: 20))
                 Spacer()
-                TextField("click here to start typing . . .", text: $journal)
+                TextEditor(text: $journal)
                     .padding()
                     .frame(width: 350.0, height: 700.0)
                     .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.white/*@END_MENU_TOKEN@*/)
