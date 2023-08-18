@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD27549A2A8FBE2200352263 /* YogaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2754992A8FBE2200352263 /* YogaView.swift */; };
+		BD27549C2A8FBE2F00352263 /* WalkingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD27549B2A8FBE2F00352263 /* WalkingView.swift */; };
+		BD27549E2A8FBE4400352263 /* RunningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD27549D2A8FBE4400352263 /* RunningView.swift */; };
 		BD88263B2A8BCFEC00B2548B /* FeelFurtherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD88263A2A8BCFEC00B2548B /* FeelFurtherApp.swift */; };
 		BD88263D2A8BCFEC00B2548B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD88263C2A8BCFEC00B2548B /* ContentView.swift */; };
 		BD88263F2A8BCFEE00B2548B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD88263E2A8BCFEE00B2548B /* Assets.xcassets */; };
@@ -16,6 +19,8 @@
 		BD8941632A8E776F00D6156B /* AnxietyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8941622A8E776F00D6156B /* AnxietyView.swift */; };
 		BD8941652A8E778800D6156B /* AngerManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8941642A8E778800D6156B /* AngerManagementView.swift */; };
 		BD8941672A8E7B4500D6156B /* LibreBaskerville-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD8941662A8E7B4500D6156B /* LibreBaskerville-Italic.ttf */; };
+		BD89B4952A8EABBE0073C5BE /* PhysicalHealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD89B4942A8EABBD0073C5BE /* PhysicalHealthView.swift */; };
+		BD89B4972A8EADFE0073C5BE /* MentalHealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD89B4962A8EADFE0073C5BE /* MentalHealthView.swift */; };
 		BD8FF65A2A8BD78300290A57 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8FF6592A8BD78300290A57 /* TodoList.swift */; };
 		BD8FF65C2A8BD85F00290A57 /* VacationTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8FF65B2A8BD85F00290A57 /* VacationTab.swift */; };
 		BD8FF65E2A8BD87C00290A57 /* JournalTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8FF65D2A8BD87C00290A57 /* JournalTab.swift */; };
@@ -28,6 +33,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD2754992A8FBE2200352263 /* YogaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaView.swift; sourceTree = "<group>"; };
+		BD27549B2A8FBE2F00352263 /* WalkingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkingView.swift; sourceTree = "<group>"; };
+		BD27549D2A8FBE4400352263 /* RunningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningView.swift; sourceTree = "<group>"; };
 		BD8826372A8BCFEC00B2548B /* FeelFurther.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeelFurther.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD88263A2A8BCFEC00B2548B /* FeelFurtherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelFurtherApp.swift; sourceTree = "<group>"; };
 		BD88263C2A8BCFEC00B2548B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -39,6 +47,8 @@
 		BD8941622A8E776F00D6156B /* AnxietyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnxietyView.swift; sourceTree = "<group>"; };
 		BD8941642A8E778800D6156B /* AngerManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngerManagementView.swift; sourceTree = "<group>"; };
 		BD8941662A8E7B4500D6156B /* LibreBaskerville-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreBaskerville-Italic.ttf"; sourceTree = "<group>"; };
+		BD89B4942A8EABBD0073C5BE /* PhysicalHealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicalHealthView.swift; sourceTree = "<group>"; };
+		BD89B4962A8EADFE0073C5BE /* MentalHealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealthView.swift; sourceTree = "<group>"; };
 		BD8FF6592A8BD78300290A57 /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
 		BD8FF65B2A8BD85F00290A57 /* VacationTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationTab.swift; sourceTree = "<group>"; };
 		BD8FF65D2A8BD87C00290A57 /* JournalTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTab.swift; sourceTree = "<group>"; };
@@ -92,6 +102,11 @@
 				BD8FF65B2A8BD85F00290A57 /* VacationTab.swift */,
 				BD8FF6592A8BD78300290A57 /* TodoList.swift */,
 				BD8826482A8BD14E00B2548B /* ResourceTab.swift */,
+				BD89B4962A8EADFE0073C5BE /* MentalHealthView.swift */,
+				BD2754992A8FBE2200352263 /* YogaView.swift */,
+				BD27549B2A8FBE2F00352263 /* WalkingView.swift */,
+				BD27549D2A8FBE4400352263 /* RunningView.swift */,
+				BD89B4942A8EABBD0073C5BE /* PhysicalHealthView.swift */,
 				BD8941622A8E776F00D6156B /* AnxietyView.swift */,
 				BD8941642A8E778800D6156B /* AngerManagementView.swift */,
 				BD88263E2A8BCFEE00B2548B /* Assets.xcassets */,
@@ -198,15 +213,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD8FF65C2A8BD85F00290A57 /* VacationTab.swift in Sources */,
+				BD27549E2A8FBE4400352263 /* RunningView.swift in Sources */,
 				BD8941652A8E778800D6156B /* AngerManagementView.swift in Sources */,
 				BDD2A4992A8E91520001B325 /* ToDoItem.swift in Sources */,
 				BDD2A4972A8E90F40001B325 /* NewToDoView.swift in Sources */,
 				BD8FF65E2A8BD87C00290A57 /* JournalTab.swift in Sources */,
 				BD8826492A8BD14E00B2548B /* ResourceTab.swift in Sources */,
+				BD27549C2A8FBE2F00352263 /* WalkingView.swift in Sources */,
 				BD88263D2A8BCFEC00B2548B /* ContentView.swift in Sources */,
+				BD27549A2A8FBE2200352263 /* YogaView.swift in Sources */,
 				BD8941632A8E776F00D6156B /* AnxietyView.swift in Sources */,
+				BD89B4952A8EABBE0073C5BE /* PhysicalHealthView.swift in Sources */,
 				BD88263B2A8BCFEC00B2548B /* FeelFurtherApp.swift in Sources */,
 				BD8FF65A2A8BD78300290A57 /* TodoList.swift in Sources */,
+				BD89B4972A8EADFE0073C5BE /* MentalHealthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

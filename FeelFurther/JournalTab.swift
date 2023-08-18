@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct JournalTab: View {
-    @State private var journal = "Start Writing...."
+    @State private var journal = "start writing...."
     var body: some View {
         ZStack {
             Color(red: 0.93, green: 0.905, blue: 0.888)

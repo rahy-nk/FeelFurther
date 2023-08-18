@@ -25,13 +25,14 @@ struct NewToDoView: View {
     var body: some View {
         VStack {
             //Add Text View containing "Task title" here
-            Text ("Task Title")
+            Text ("task title")
                 .font(.custom("LibreBaskerville-Regular", size: 18))
                 .fontWeight(.bold)
                 .foregroundColor(Color(red: 0.278, green: 0.167, blue: 0.167))
                 .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             //Add TextField here with the Text "Enter task description" and binded to the title state property (text:$title font(.custom("LibreBaskerville-Regular", size: 18)))
-            TextField("Enter the task description", text:$title)
+            TextField("enter the task description", text:$title)
+                .font(Font.custom("LibreBaskerville-Regular", size: 15))
                 .foregroundColor(Color(red: 0.278, green: 0.167, blue: 0.167))
                 .padding()
                 .overlay(RoundedRectangle(cornerRadius: 50.0).strokeBorder(Color.black, style: StrokeStyle(lineWidth: 1.0)))
@@ -40,13 +41,13 @@ struct NewToDoView: View {
             //Add Toggle here that is binded to isImportant (isOn: $isImportant) and the text "Is it important?"
          
             Toggle(isOn: $isImportant) {
-                Text ("Is it Important?")
+                Text ("is it important?")
                 
                 
             }
                       
                       //Add a padding modifier
-                .font(Font.custom("LibreBaskerville-Regular", size: 18))
+                .font(Font.custom("LibreBaskerville-Regular", size: 15))
                 .foregroundColor(Color(red: 0.278, green: 0.167, blue: 0.167))
                 .padding()
                 .overlay(RoundedRectangle(cornerRadius: 50.0).strokeBorder(Color.black, style: StrokeStyle(lineWidth: 1.0)))
@@ -57,9 +58,8 @@ struct NewToDoView: View {
                 self.showNewTask = false
                 self.addTask(title: self.title, isImportant: self.isImportant)
             }) {
-                Text ("Add")
-                    .font(.title3)
-                    .fontWeight(.bold)
+                Text ("add")
+                    .font(Font.custom("LibreBaskerville-Regular", size: 17))
                     .foregroundColor(Color(red: 0.278, green: 0.167, blue: 0.167))
 
             }

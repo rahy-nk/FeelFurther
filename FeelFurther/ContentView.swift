@@ -30,7 +30,7 @@ struct ContentView: View {
                         //Resource Tab
                         NavigationLink(destination: ResourceTab()) {
                             Text("resources")
-                                .fontWeight(.bold)
+                                .font(Font.custom("LibreBaskerville-Regular", size: 17))
                                 .foregroundColor(Color(hue: 1.0, saturation: 0.163, brightness: 0.304))
                             
                         }
@@ -42,7 +42,7 @@ struct ContentView: View {
                         //to-do List
                         NavigationLink(destination: TodoList()) {
                             Text("to-do list")
-                                .fontWeight(.bold)
+                                .font(Font.custom("LibreBaskerville-Regular", size: 17))
                                 .foregroundColor(Color(hue: 1.0, saturation: 0.163, brightness: 0.304))
                         }
                         .padding ()
@@ -52,10 +52,10 @@ struct ContentView: View {
                         .padding ()
                     }
                     HStack {
-                        //Vacation Destinations Tab
+                        //Journal Tab
                         NavigationLink(destination: JournalTab()) {
                             Text("journal")
-                                .fontWeight(.bold)
+                                .font(Font.custom("LibreBaskerville-Regular", size: 17))
                                 .foregroundColor(Color(hue: 1.0, saturation: 0.163, brightness: 0.304))
                         }
                         .padding ()
@@ -64,10 +64,10 @@ struct ContentView: View {
                         .cornerRadius(/*@START_MENU_TOKEN@*/30.0/*@END_MENU_TOKEN@*/)
                         .padding ()
                         
-                        //Journal
+                        //Vacation Tab
                         NavigationLink(destination: VacationTab()) {
                             Text("vacation destinations")
-                                .fontWeight(.bold)
+                                .font(Font.custom("LibreBaskerville-Regular", size: 17))
                                 .foregroundColor(Color(hue: 1.0, saturation: 0.163, brightness: 0.304))
                         }
                         .padding ()
